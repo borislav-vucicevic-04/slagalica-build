@@ -36,7 +36,7 @@ export default function Home() {
     }
     setGame(game);
     setPoints(points);
-    navigate('/control-panel')
+    navigate('/slagalica-build/control-panel')
   }
   return (
     <div className={StyleSheet.container}>

@@ -6,12 +6,12 @@ import Slagalica from "./pages/Slagalica/Slagalica";
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/slagalica-build',
     element: <App />,
     children: [
       { index: true, element: <Home /> },
-      { path: '/control-panel', element: <ControlPanel /> },
-      { path: '/slagalica', element: <Slagalica /> }
+      { path: '/slagalica-build/control-panel', element: <ControlPanel /> },
+      { path: '/slagalica-build/slagalica', element: <Slagalica /> }
     ]
   }
 ]);

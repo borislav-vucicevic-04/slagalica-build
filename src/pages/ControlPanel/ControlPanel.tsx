@@ -19,7 +19,7 @@ export default function ControlPanel() {
       case 'slagalica': game = "slagalica"; setPoints({...points, slagalica: 0}); break;
       default: break;
     }
-    if(game) navigate(`/${game}`);
+    if(game) navigate(`/slagalica-build/${game}`);
     else await Dialogs.alert({
       title: text.dialogTitle,
       message: text.dialogMessage,

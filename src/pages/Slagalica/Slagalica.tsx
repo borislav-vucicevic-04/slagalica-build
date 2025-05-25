@@ -70,7 +70,7 @@ export default function Slagalica() {
     localStorage.setItem("shouldProceed", JSON.stringify(true));
     setShouldBlock(false);
     setPoints({...points, slagalica: pts})
-    navigate('/control-panel', { replace: true });
+    navigate('/slagalica-build/control-panel', { replace: true });
   }
   useEffect(() => {
     console.log(game.slagalica);
