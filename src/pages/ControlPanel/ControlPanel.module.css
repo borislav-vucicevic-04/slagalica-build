@@ -14,6 +14,7 @@
   grid-template-rows: repeat(7, 1fr);
   grid-template-columns: repeat(2, 1fr);
   gap: var(--container-gap);
+  animation: fade-in 300ms;
 }
 .controlBtn {
   flex: 1;
@@ -50,6 +51,14 @@
 }
 .pointsDialog button[value=cancel] {
   display: none;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 @media screen and (orientation: portrait) {
   .container {

@@ -1,17 +1,19 @@
 import { useEffect, useState } from 'react'
-import { Navigate, useNavigate } from 'react-router-dom'
+import { Navigate, useBlocker, useNavigate } from 'react-router-dom'
 import StyleSheet from './Slagalica.module.css'
 import { useGame } from '../../context/game.context'
 import { usePoints } from '../../context/points.context'
 import { useLocale } from '../../context/locale.context'
 import loadTranslation from '../../assets/locales/translationLoader'
-import useDialogBlocker from '../../utils/useDialogBlocker.utils'
 import { Dialogs } from 'bv-react-async-dialogs'
+import { usePlayed } from '../../context/played.context'
 
 export default function Slagalica() {
   const { game } = useGame();
+  const { played, setPlayed } = usePlayed()
+  const navigate = useNavigate();
 
-  if(!game) return <Navigate to={'/'} replace={true} />
+  if(!game) return <Navigate to={'/slagalica-build'} replace={true} />
   
   const { locale } = useLocale();
   const { points, setPoints } = usePoints();
@@ -21,9 +23,10 @@ export default function Slagalica() {
   const [chosenLetters, setChosenLetters] = useState<string[]>([]);
   const [timeLeft, setTimeLeft] = useState<number>(90);
   const text: any = loadTranslation(locale, 'slagalica');
-  const navigate = useNavigate();
+  const blockerDialogText: any = loadTranslation(locale, 'blockerDialog');
 
-  useDialogBlocker(shouldBlock)
+  // navigation blocker
+  const blocker = useBlocker(shouldBlock);
 
   const handleChooseLetter = (letter: string, index: number) => {
     const newLetters = [...letters];
@@ -45,6 +48,7 @@ export default function Slagalica() {
   }
   const handleSubmitWord = async () => {
     clearInterval(intervalID);
+
     const userWord = chosenLetters.join('');
     let pts = 0;
     let title = '';
@@ -67,23 +71,62 @@ export default function Slagalica() {
       message,
       className: 'asyncDialog'
     });
-    localStorage.setItem("shouldProceed", JSON.stringify(true));
     setShouldBlock(false);
-    setPoints({...points, slagalica: pts})
-    navigate('/slagalica-build/control-panel', { replace: true });
+    setPoints({...points, slagalica: pts});
+    setPlayed({...played, slagalica: true});
+    navigate(-1);
+  }
+  const confirmSubmitWord = async () => {
+    const confirmation = await Dialogs.confirm({
+      title: text.confirmTitle,
+      message: text.confirmMessage,
+      className: 'asyncDialog',
+      okText: text.confirmOK,
+      cancelText: text.confirmCancel,
+    });
+
+    if(confirmation) handleSubmitWord();
   }
   useEffect(() => {
-    console.log(game.slagalica);
-    const intervalId = setInterval(() => {
-      setTimeLeft((prev) => {
-        if (prev === 0) {
-          clearInterval(intervalId);
-          handleSubmitWord();
-          return 0;
+    let intervalId = 0;
+
+    if(blocker.state === 'blocked') {
+      Dialogs.confirm({
+        title: blockerDialogText.title,
+        message: blockerDialogText.message,
+        okText: blockerDialogText.okText,
+        cancelText: blockerDialogText.cancelText,
+        className: 'asyncDialog'
+      }).then((confirmed: boolean) => {
+        if (confirmed) {
+          blocker.proceed(); // Proceed with navigation
+        } else {
+          blocker.reset(); // Stay on the current page
         }
-        return prev - 1;
       });
-    }, 1000);
+    }
+    if(played.slagalica) {
+      console.log("Game has already been played!");
+      setShouldBlock(false);
+      navigate(-1);
+    }
+    else { 
+      setPlayed({...played, slagalica: true})
+      document.title = "Slagalica Kviz - Slagalcia"
+      intervalId = setInterval(() => {
+        setTimeLeft((prev) => {
+          if (prev === 0) {
+            const currentOpenDialog = document.querySelector(".asyncDialog") as HTMLDialogElement;
+            if(currentOpenDialog) currentOpenDialog.remove();
+            clearInterval(intervalId);
+            handleSubmitWord();
+            return 0;
+          }
+          else if (blocker.state === 'blocked') return prev;
+          return prev - 1;
+        });
+      }, 1000);
+    }
 
     // Store the interval ID if you still want to save it
     setIntervalID(intervalId);
@@ -92,7 +135,7 @@ export default function Slagalica() {
     return () => {
       clearInterval(intervalId);
     };
-  }, []);
+  }, [blocker]);
 
   return (
     <div className={StyleSheet.container}>
@@ -104,7 +147,7 @@ export default function Slagalica() {
         <span>{chosenLetters.join('')}</span>
         <button onClick={handleRemoveLetter}>{'\u232b'}</button>
       </div>
-      <button className={StyleSheet.submitBtn} onClick={handleSubmitWord}>{text.submitBtn}</button>
+      <button className={StyleSheet.submitBtn} onClick={confirmSubmitWord}>{text.submitBtn}</button>
     </div>
   )
 }

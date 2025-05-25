@@ -1,0 +1,9 @@
+{
+  "submitBtn": "submit",
+  "dialogTitle": "Game over",
+  "dialogMessage": "Earned points: ${earnedPoints}",
+  "confirmTitle": "Confirm submission",
+  "confirmMessage": "Are you sure you want to confirm the submission?",
+  "confirmOK": "Yes",
+  "confirmCancel": "No"
+}

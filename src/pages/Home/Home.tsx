@@ -7,12 +7,15 @@ import { useGame } from '../../context/game.context';
 import generateGame from '../../utils/generateGame.utils';
 import type IPoints from '../../interfaces/points.interface';
 import { usePoints } from '../../context/points.context';
+import type IPlayed from '../../interfaces/played.interface';
+import { usePlayed } from '../../context/played.context';
 
 export default function Home() {
   const navigate = useNavigate();
   const { locale, setLocale } = useLocale();
   const { setGame } = useGame();
   const { setPoints } = usePoints();
+  const { setPlayed } = usePlayed();
   const [text, setText] = useState<any>(loadTranslation(locale, 'home'));
   const handleLocaleSwitch = (newLocale: 'sr' | 'en') => {
     setText(loadTranslation(newLocale, 'home'));
@@ -32,10 +35,25 @@ export default function Home() {
       asocijacije: null,
       skriveneStaze: null,
       premetaljka: null,
-      muzickaLicitacija: null
+      licitacija: null
+    }
+    const played: IPlayed = {
+      slagalica: false,
+      mojBroj: false,
+      spajalica: false,
+      parovi: false,
+      desnoLijevo: false,
+      sef: false,
+      zid: false,
+      putOkoSvijeta: false,
+      asocijacije: false,
+      skriveneStaze: false,
+      premetaljka: false,
+      licitacija: false
     }
     setGame(game);
     setPoints(points);
+    setPlayed(played)
     navigate('/slagalica-build/control-panel')
   }
   return (

@@ -10,5 +10,5 @@ export default interface IPoints {
   asocijacije: number | null,
   skriveneStaze: number | null,
   premetaljka: number | null,
-  muzickaLicitacija: number | null
+  licitacija: number | null
 }

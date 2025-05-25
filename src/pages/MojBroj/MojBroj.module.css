@@ -1,0 +1,144 @@
+.container {
+  /* variables */
+  --contianer-padding: 1.5rem;
+  --container-gap: 1.5rem;
+  --rowWrapper-height: 5rem;
+  --rowWrapper-gap: 1rem;
+  --borderRadius: 1rem;
+  --fontSize: 2rem;
+  --timerCounter-fontSize: 2rem;
+  /* styling */
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: var(--contianer-padding);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: var(--container-gap);
+  animation: fade-in 300ms;
+}
+.rowWrapper {
+  height: var(--rowWrapper-height);
+  width: calc(90% - var(--timerCounter-fontSize));
+  max-width: 64rem;
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
+  font-size: var(--fontSize);
+  color: var(--white);
+  gap: var(--rowWrapper-gap);
+}
+.wantedNumberWrapper, .resultWrapper, .expressionWrapper {
+  background-color: var(--dark-teal);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--borderRadius);
+}
+.number, .operator, .backspace, .submitBtn {
+  padding: 0;
+  border-radius: var(--borderRadius);
+  background-color: var(--dark-teal);
+  font: inherit;
+  color: inherit;
+  text-transform: uppercase;
+}
+.wantedNumberWrapper, .expressionWrapper, .number, .operator, .submitBtn {
+  flex: 1;
+}
+.resultWrapper, .backspace {
+  height: var(--rowWrapper-height);
+  aspect-ratio: 1 / 1;
+  flex-shrink: 1;
+}
+.submitBtn {
+  letter-spacing: 4px;
+  font-weight: bold;
+}
+.timeCounter {
+  position: fixed;
+  right: 2rem;
+  top: 0.75rem;
+  color: var(--dark-teal);
+  font-size: var(--timerCounter-fontSize);
+  font-weight: 600;
+  height: auto;
+  width: auto;
+  background-color: var(--white);
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media screen and (orientation: portrait) {
+  .rowWrapper:nth-of-type(3), .rowWrapper:nth-of-type(4) {
+    height: auto;
+    display: grid;
+    grid-template-rows: repeat(2, var(--rowWrapper-height));
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .rowWrapper {
+    width: 100%;
+  }
+}
+@media screen and (max-height: 621px), screen and (max-width: 621px) {
+  .container {
+    --contianer-padding: 1.25rem;
+    --container-gap: 1.25rem;
+    --rowWrapper-height: 4rem;
+    --rowWrapper-gap: 0.75rem;
+    --borderRadius: 0.75rem;
+    --fontSize: 1.75rem;
+    --timerCounter-fontSize: 1.75rem;
+  }
+}
+@media screen and (max-height: 516px), screen and (max-width: 516px) {
+  .container {
+    --contianer-padding: 1.15rem;
+    --container-gap: 1.15rem;
+    --rowWrapper-height: 3.5rem;
+    --rowWrapper-gap: 0.65rem;
+    --borderRadius: 0.65rem;
+    --fontSize: 1.65rem;
+    --timerCounter-fontSize: 1.65rem;
+  }
+}
+@media screen and (max-height: 451px), screen and (max-width: 451px) {
+  .container {
+    --contianer-padding: 1rem;
+    --container-gap: 1rem;
+    --rowWrapper-height: 3rem;
+    --rowWrapper-gap: 0.5rem;
+    --borderRadius: 0.5rem;
+    --fontSize: 1.5rem;
+    --timerCounter-fontSize: 1.5rem;
+  }
+}
+@media screen and (max-width: 376px) {
+  .container {
+    --contianer-padding: 1rem;
+    --container-gap: 1rem;
+    --rowWrapper-height: 3rem;
+    --rowWrapper-gap: 0.5rem;
+    --borderRadius: 0.5rem;
+    --fontSize: 1.25rem;
+    --timerCounter-fontSize: 1.25rem;
+  }
+}
+@media screen and (max-height: 351px), screen and (max-width: 351px) {
+  .container {
+    --contianer-padding: 0.5rem;
+    --container-gap: 0.5rem;
+    --rowWrapper-height: 2.5rem;
+    --rowWrapper-gap: 0.5rem;
+    --borderRadius: 0.5rem;
+    --fontSize: 1rem;
+    --timerCounter-fontSize: 1rem;
+  }
+}

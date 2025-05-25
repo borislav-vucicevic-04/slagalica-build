@@ -22,7 +22,7 @@ export const PointsProvider = ({children}: {children: ReactNode}) => {
     asocijacije: null,
     skriveneStaze: null,
     premetaljka: null,
-    muzickaLicitacija: null
+    licitacija: null
   });
 
   return <PointsContext.Provider value={{points, setPoints}}>

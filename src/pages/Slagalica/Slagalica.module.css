@@ -19,6 +19,7 @@
   justify-content: center;
   align-items: center;
   gap: var(--container-gap);
+  animation: fade-in 300ms;
 }
 .letterBtnsWrappers, .userWordWrapper {
   min-height: var(--rowWrapper-height);
@@ -86,6 +87,14 @@
   height: auto;
   width: auto;
   background-color: var(--white);
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 @media screen and (max-width: 1025px) {
   .container {

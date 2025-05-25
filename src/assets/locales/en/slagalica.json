@@ -3,5 +3,9 @@
   "winDialogTitle": "Victory",
   "winDialogMessage": "Your word is correct! <br><br>Computer's word: ${computerWord}<br>Points: ${earnedPoints}",
   "defeatDialogTitle": "Defeat",
-  "defeatDialogMessage": "Your word is invalid! <br><br>Computer word: ${computerWord}"
+  "defeatDialogMessage": "Your word is invalid! <br><br>Computer word: ${computerWord}",
+  "confirmTitle": "Confirm submission",
+  "confirmMessage": "Are you sure you want to confirm the submission?",
+  "confirmOK": "Yes",
+  "confirmCancel": "No"
 }
