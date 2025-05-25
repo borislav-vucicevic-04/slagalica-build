@@ -1,0 +1,89 @@
+.container {
+  /* variables */
+  --container-gap: 2rem;
+  --container-padding: 1rem;
+  --controlBtn-fontSize: 2rem;
+  /* styling */
+  height: 100%;
+  width: 100%;
+  max-width: 85rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: var(--container-padding);
+  display: grid;
+  grid-template-rows: repeat(7, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--container-gap);
+}
+.controlBtn {
+  flex: 1;
+  font-family: inherit;
+  background-color: var(--dark-teal);
+  border: none;
+  cursor: pointer;
+  color: var(--white);
+  font-size: var(--controlBtn-fontSize);
+  text-transform: capitalize;
+  border-radius: var(--controlBtn-fontSize);
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+.controlBtn:last-of-type {
+  grid-column: span 2;
+}
+.pointsDialog table {
+  border: solid 1px var(--black);
+  border-spacing: 0;
+  text-transform: capitalize;
+}
+.pointsDialog table th, .pointsDialog table td {
+  border: solid 1px var(--black);
+  padding: 0.25rem;
+}
+.pointsDialog table th {
+  text-align: left;
+  color: var(--dark-teal);
+}
+.pointsDialog table td {
+  text-align: center;
+  font-family: inherit;
+}
+.pointsDialog button[value=cancel] {
+  display: none;
+}
+@media screen and (orientation: portrait) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+  }
+}
+@media screen and (max-width: 769px), screen and (max-height: 530px) {
+  .container {
+    --container-gap: 1.5rem;
+    --container-padding: 1rem;
+    --controlBtn-fontSize: 1.75rem;
+  }
+}
+@media screen and (max-width: 426px), screen and (max-height: 451px) {
+  .container {
+    --container-gap: 1rem;
+    --container-padding: 0.75rem;
+    --controlBtn-fontSize: 1.25rem;
+  }
+}
+@media screen and (max-width: 321px), screen and (max-height: 341px) {
+  .container {
+    --container-gap: 0.75rem;
+    --container-padding: 0.5rem;
+    --controlBtn-fontSize: 1rem;
+  }
+}
+@media screen and (max-height: 321px) {
+  .container {
+    --container-gap: 0.5rem;
+    --container-padding: 0.5rem;
+    --controlBtn-fontSize: 0.75rem;
+  }
+}

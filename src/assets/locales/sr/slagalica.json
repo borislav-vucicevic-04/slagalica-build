@@ -1,0 +1,7 @@
+{
+  "submitBtn": "potvrdi",
+  "winDialogTitle": "Pobjeda",
+  "winDialogMessage": "Vaša riječ je ispravna! <br><br>Kompjuterova riječ: ${computerWord}<br>Osvojeni poeni: ${earnedPoints}",
+  "defeatDialogTitle": "Poraz",
+  "defeatDialogMessage": "Vaša riječ je neispravna! <br><br>Kompjuterova riječ: ${computerWord}"
+}

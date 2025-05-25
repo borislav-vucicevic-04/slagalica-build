@@ -1,0 +1,132 @@
+.container {
+  /* variables */
+  --container-padding: 1rem;
+  --container-gap: 3rem;
+  --rowWrapper-height: 6rem;
+  --rowWrapper-padding: 1rem;
+  --rowWrapper-gap: 1rem;
+  --rowWrapper-width: calc((var(--rowWrapper-height) - 2 * var(--rowWrapper-padding)) * 12 + 11 * var(--rowWrapper-gap));
+  --letterBtn-fontSize: 2rem;
+  --submitBtn-height: 4rem;
+  --timerCounter-fontSize: 2rem;
+  /* styling */
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: var(--container-padding);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--container-gap);
+}
+.letterBtnsWrappers, .userWordWrapper {
+  min-height: var(--rowWrapper-height);
+  height: fit-content;
+  width: var(--rowWrapper-width);
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: var(--rowWrapper-padding);
+  border-radius: var(--rowWrapper-padding);
+  border: solid 2px var(--black);
+  background-color: white;
+}
+.letterBtnsWrappers {
+  display: flex;
+  justify-content: left;
+  gap: var(--rowWrapper-gap);
+}
+.userWordWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+}
+.userWordWrapper span {
+  flex: 1;
+  font-size: var(--letterBtn-fontSize);
+  text-align: center;
+  letter-spacing: 4px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.letterBtn, .userWordWrapper button {
+  height: 100%;
+  aspect-ratio: 1 / 1;
+  background-color: var(--dark-teal);
+  text-transform: uppercase;
+  color: var(--white);
+  border-radius: 0.5rem;
+  font-weight: bold;
+  font-family: inherit;
+  font-size: var(--letterBtn-fontSize);
+}
+.submitBtn {
+  background-color: var(--dark-teal);
+  height: var(--submitBtn-height);
+  width: var(--rowWrapper-width);
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: var(--rowWrapper-padding);
+  border-radius: var(--rowWrapper-padding);
+  color: white;
+  font-family: inherit;
+  font-size: var(--letterBtn-fontSize);
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 4px;
+  line-height: 0;
+}
+.timeCounter {
+  position: fixed;
+  right: 2rem;
+  top: 0.75rem;
+  color: var(--dark-teal);
+  font-size: var(--timerCounter-fontSize);
+  font-weight: 600;
+  height: auto;
+  width: auto;
+  background-color: var(--white);
+}
+@media screen and (max-width: 1025px) {
+  .container {
+  --container-padding: 1rem;
+  --container-gap: 2rem;
+  --rowWrapper-height: 5rem;
+  --rowWrapper-padding: 0.75rem;
+  --rowWrapper-gap: 0.75rem;
+  --letterBtn-fontSize: 1.75rem;
+  --submitBtn-height: 3.5rem;
+  --timerCounter-fontSize: 1.75rem;
+  }
+}
+@media screen and (max-width: 830px), screen and (max-height: 400px) {
+  .container {
+  --container-padding: 1rem;
+  --container-gap: 1rem;
+  --rowWrapper-height: 4rem;
+  --rowWrapper-padding: 0.5rem;
+  --rowWrapper-gap: 0.5rem;
+  --letterBtn-fontSize: 1.5rem;
+  --submitBtn-height: 3rem;
+  --timerCounter-fontSize: 1.5rem;
+  }
+}
+@media screen and (max-width: 701px) {
+  .container {
+  --container-padding: 1rem;
+  --container-gap: 1rem;
+  --rowWrapper-height: 3.5rem;
+  --rowWrapper-padding: 0.5rem;
+  --rowWrapper-gap: 0.5rem;
+  --letterBtn-fontSize: 1.25rem;
+  --submitBtn-height: 2.5rem;
+  --timerCounter-fontSize: 1.25rem;
+  }
+}
+@media screen and (orientation: portrait) and (max-width: 1024px) {
+  .letterBtnsWrappers {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "title": "Warning!",
+  "message":  "If you leave this page, all unsaved data will be deleted permanently!",
+  "okText": "Leave",
+  "cancelText": "Stay"
+}
