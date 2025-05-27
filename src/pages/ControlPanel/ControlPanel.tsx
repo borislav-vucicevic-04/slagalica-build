@@ -16,6 +16,8 @@ export default function ControlPanel() {
   const { played } = usePlayed();
   const blocker = useBlocker((obj) => {
     const { nextLocation } = obj;
+    console.log(nextLocation.pathname);
+    
     const gameName = nextLocation.pathname.split('/').pop(); // pull out the last part of the pathname which is name of the game
 
     switch(gameName) {
