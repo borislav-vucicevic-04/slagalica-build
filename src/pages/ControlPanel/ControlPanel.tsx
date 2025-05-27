@@ -6,7 +6,7 @@ import { useBlocker, useNavigate } from 'react-router-dom';
 import { AsyncDialog, Dialogs } from 'bv-react-async-dialogs';
 import { usePoints } from '../../context/points.context';
 import { usePlayed } from '../../context/played.context';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
 export default function ControlPanel() {
   const navigate = useNavigate();
@@ -14,12 +14,21 @@ export default function ControlPanel() {
   const text: any = loadTranslation(locale, 'controlPanel');
   const { points, setPoints } = usePoints();
   const { played } = usePlayed();
-  const [shouldBlock, setShouldBlock] = useState<boolean>(true);
-  const blocker = useBlocker(shouldBlock);
+  const blocker = useBlocker((obj) => {
+    const { nextLocation } = obj;
+    const gameName = nextLocation.pathname.split('/').pop(); // pull out the last part of the pathname which is name of the game
+
+    switch(gameName) {
+      case 'slagalica': return played.slagalica;
+      case 'moj-broj': return played.mojBroj;
+      default: break;
+    }
+    
+    return nextLocation.pathname === '/slagalica-build';
+  });
   const blockerDialogText: any = loadTranslation(locale, 'blockerDialog');
 
   const handleGameChoice = async (gameName: TGameNamesForPoints) => {
-    setShouldBlock(false);
     let game: string | undefined = undefined;
 
     switch(gameName) {
@@ -63,7 +72,8 @@ export default function ControlPanel() {
     document.title = 'Slagalica Kviz - Kontrolna tabla';
 
     if(blocker.state === 'blocked') {
-      if(blocker.location.pathname === '/slagalica-build') {
+      const gameName = blocker.location.pathname.split('/').pop(); // pull out the last part of the pathname which is name of the game
+      if(gameName === 'slagalica-build') {
         Dialogs.confirm({
           title: blockerDialogText.title,
           message: blockerDialogText.message,
@@ -77,8 +87,6 @@ export default function ControlPanel() {
             blocker.reset(); // Stay on the current page
           }
         });
-      } else {
-        blocker.proceed();
       }
     }
   }, [blocker])
