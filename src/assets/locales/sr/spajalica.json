@@ -1,0 +1,4 @@
+{
+  "dialogTitle": "Kraj igre",
+  "dialogMessage": "Osvojeni poeni: ${earnedPoints}<br>Bonus: ${bonus}<br><br><span>Preostali parovi</span>"
+}

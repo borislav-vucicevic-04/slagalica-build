@@ -1,10 +1,11 @@
 import type ISlagalica from "./slagalica.interface";
 import type IMojBroj from "./mojBroj.interface";
+import type ISpajalica from "./spajalica.interface";
 
 export default interface IGame {
   slagalica: ISlagalica,
   mojBroj: IMojBroj,
-  // spajalica: ISpajalica,
+  spajalica: ISpajalica,
   // desnoLijevo: IDesnoLijevo,
   // zid: IZid,
   // asocijacije: IAsocijacije,

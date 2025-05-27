@@ -1,0 +1,1214 @@
+[
+  {
+    "description": "Football clubs and the cities they are located in",
+    "pairs": [
+      ["FC Barcelona", "Barcelona"],
+      ["Manchester United", "Manchester"],
+      ["Bayern Munich", "Munich"],
+      ["Juventus", "Turin"],
+      ["Paris Saint-Germain", "Paris"],
+      ["Ajax", "Amsterdam"],
+      ["AC Milan", "Milan"]
+    ]
+  },
+  {
+    "description": "Directors and their films",
+    "pairs": [
+      ["Christopher Nolan", "Inception"],
+      ["Quentin Tarantino", "Pulp Fiction"],
+      ["Steven Spielberg", "Schindler's List"],
+      ["Martin Scorsese", "Goodfellas"],
+      ["Alfred Hitchcock", "Psycho"],
+      ["James Cameron", "Titanic"],
+      ["Ridley Scott", "Gladiator"]
+    ]
+  },
+  {
+    "description": "Writers and their books",
+    "pairs": [
+      ["Leo Tolstoy", "War and Peace"],
+      ["George Orwell", "1984"],
+      ["Jane Austen", "Pride and Prejudice"],
+      ["Fyodor Dostoevsky", "Crime and Punishment"],
+      ["Gabriel García Márquez", "One Hundred Years of Solitude"],
+      ["J.K. Rowling", "Harry Potter and the Philosopher's Stone"],
+      ["Ernest Hemingway", "The Old Man and the Sea"]
+    ]
+  },
+  {
+    "description": "Directors and their countries of origin",
+    "pairs": [
+      ["Akira Kurosawa", "Japan"],
+      ["Pedro Almodóvar", "Spain"],
+      ["Ingmar Bergman", "Sweden"],
+      ["Bong Joon-ho", "South Korea"],
+      ["Jean-Luc Godard", "France"],
+      ["Federico Fellini", "Italy"],
+      ["Danny Boyle", "United Kingdom"]
+    ]
+  },
+  {
+    "description": "Ports and the countries they are located in",
+    "pairs": [
+      ["Port of Shanghai", "China"],
+      ["Port of Rotterdam", "Netherlands"],
+      ["Port of Singapore", "Singapore"],
+      ["Port of Antwerp", "Belgium"],
+      ["Port of Hamburg", "Germany"],
+      ["Port of Los Angeles", "USA"],
+      ["Port of Santos", "Brazil"]
+    ]
+  },
+  {
+    "description": "Acids and their chemical formulas",
+    "pairs": [
+      ["Hydrochloric acid", "HCl"],
+      ["Sulfuric acid", "H2SO4"],
+      ["Nitric acid", "HNO3"],
+      ["Acetic acid", "CH3COOH"],
+      ["Citric acid", "C6H8O7"],
+      ["Phosphoric acid", "H3PO4"],
+      ["Carbonic acid", "H2CO3"]
+    ]
+  },
+  {
+    "description": "Sports fields and their lengths",
+    "pairs": [
+      ["Football field", "100 meters"],
+      ["Tennis court", "23.77 meters"],
+      ["Basketball court", "28 meters"],
+      ["Cricket pitch", "20.12 meters"],
+      ["Rugby field", "100 meters"],
+      ["Hockey field", "91.4 meters"],
+      ["Volleyball court", "18 meters"]
+    ]
+  },
+  {
+    "description": "First and last names of Italian writers",
+    "pairs": [
+      ["Dante", "Alighieri"],
+      ["Italo", "Calvino"],
+      ["Umberto", "Eco"],
+      ["Giovanni", "Boccaccio"],
+      ["Alessandro", "Manzoni"],
+      ["Gabriele", "D'Annunzio"],
+      ["Primo", "Levi"]
+    ]
+  },
+  {
+    "description": "Actors and the movies they acted in",
+    "pairs": [
+      ["Leonardo DiCaprio", "Inception"],
+      ["Tom Hanks", "Forrest Gump"],
+      ["Morgan Freeman", "The Shawshank Redemption"],
+      ["Meryl Streep", "The Devil Wears Prada"],
+      ["Brad Pitt", "Fight Club"],
+      ["Robert Downey Jr.", "Iron Man"],
+      ["Natalie Portman", "Black Swan"]
+    ]
+  },
+  {
+    "description": "Mountains and the countries they are located in",
+    "pairs": [
+      ["Mount Everest", "Nepal"],
+      ["Mont Blanc", "France"],
+      ["Matterhorn", "Switzerland"],
+      ["Mount Kilimanjaro", "Tanzania"],
+      ["Mount Elbrus", "Russia"],
+      ["Mount Fuji", "Japan"],
+      ["Table Mountain", "South Africa"]
+    ]
+  },
+  {
+    "description": "Actors and the movies they acted in",
+    "pairs": [
+      ["Christian Bale", "The Dark Knight"],
+      ["Emma Stone", "La La Land"],
+      ["Johnny Depp", "Pirates of the Caribbean"],
+      ["Anne Hathaway", "Les Misérables"],
+      ["Joaquin Phoenix", "Joker"],
+      ["Sandra Bullock", "Gravity"],
+      ["Ryan Gosling", "Drive"]
+    ]
+  },
+  {
+    "description": "Colors and their associated objects",
+    "pairs": [
+      ["Red", "Apple"],
+      ["Yellow", "Banana"],
+      ["Green", "Leaf"],
+      ["Blue", "Sky"],
+      ["White", "Snow"],
+      ["Black", "Coal"],
+      ["Orange", "Pumpkin"]
+    ]
+  },
+  {
+    "description": "Occupations and their tools",
+    "pairs": [
+      ["Carpenter", "Hammer"],
+      ["Doctor", "Stethoscope"],
+      ["Chef", "Knife"],
+      ["Painter", "Brush"],
+      ["Mechanic", "Wrench"],
+      ["Writer", "Pen"],
+      ["Photographer", "Camera"]
+    ]
+  },
+  {
+    "description": "Brands and their products",
+    "pairs": [
+      ["Apple", "iPhone"],
+      ["Nike", "Sneakers"],
+      ["Sony", "PlayStation"],
+      ["Samsung", "Galaxy Phone"],
+      ["Coca-Cola", "Soft Drink"],
+      ["Toyota", "Car"],
+      ["Adidas", "Sportswear"]
+    ]
+  },
+  {
+    "description": "Writers and their books",
+    "pairs": [
+      ["William Shakespeare", "Hamlet"],
+      ["Mark Twain", "The Adventures of Tom Sawyer"],
+      ["Franz Kafka", "The Trial"],
+      ["Harper Lee", "To Kill a Mockingbird"],
+      ["George Orwell", "Animal Farm"],
+      ["Charles Dickens", "Oliver Twist"],
+      ["Virginia Woolf", "Mrs Dalloway"]
+    ]
+  },
+  {
+    "description": "World cities and their landmarks",
+    "pairs": [
+      ["Paris", "Eiffel Tower"],
+      ["New York", "Statue of Liberty"],
+      ["Rome", "Colosseum"],
+      ["London", "Big Ben"],
+      ["Beijing", "Forbidden City"],
+      ["Sydney", "Opera House"],
+      ["Rio de Janeiro", "Christ the Redeemer"]
+    ]
+  },
+  {
+    "description": "Historical figures and what they are known for",
+    "pairs": [
+      ["Albert Einstein", "Theory of Relativity"],
+      ["Martin Luther King Jr.", "Civil Rights Movement"],
+      ["Napoleon Bonaparte", "French Military Campaigns"],
+      ["Mahatma Gandhi", "Non-violent Resistance"],
+      ["Marie Curie", "Radioactivity Research"],
+      ["Leonardo da Vinci", "Renaissance Art and Invention"],
+      ["Winston Churchill", "World War II Leadership"]
+    ]
+  },
+  {
+    "description": "Athletes and their sports",
+    "pairs": [
+      ["Usain Bolt", "Athletics"],
+      ["Serena Williams", "Tennis"],
+      ["Michael Jordan", "Basketball"],
+      ["Cristiano Ronaldo", "Football"],
+      ["Michael Phelps", "Swimming"],
+      ["Tiger Woods", "Golf"],
+      ["Roger Federer", "Tennis"]
+    ]
+  },
+  {
+    "description": "Artists and their works",
+    "pairs": [
+      ["Leonardo da Vinci", "Mona Lisa"],
+      ["Vincent van Gogh", "Starry Night"],
+      ["Pablo Picasso", "Guernica"],
+      ["Claude Monet", "Water Lilies"],
+      ["Frida Kahlo", "The Two Fridas"],
+      ["Salvador Dalí", "The Persistence of Memory"],
+      ["Edvard Munch", "The Scream"]
+    ]
+  },
+  {
+    "description": "Scientists and their discoveries",
+    "pairs": [
+      ["Isaac Newton", "Law of Gravity"],
+      ["Albert Einstein", "Theory of Relativity"],
+      ["Marie Curie", "Radioactivity"],
+      ["Charles Darwin", "Theory of Evolution"],
+      ["Gregor Mendel", "Genetics"],
+      ["Alexander Fleming", "Penicillin"],
+      ["Nikola Tesla", "Alternating Current"]
+    ]
+  },
+  {
+    "description": "Mountains and the continents on which they are situated",
+    "pairs": [
+      ["Mount Everest", "Asia"],
+      ["Mount Kilimanjaro", "Africa"],
+      ["Mont Blanc", "Europe"],
+      ["Mount Elbrus", "Europe"],
+      ["Denali", "North America"],
+      ["Aconcagua", "South America"],
+      ["Mount Kosciuszko", "Australia"]
+    ]
+  },
+  {
+    "description": "Countries and their capitals",
+    "pairs": [
+      ["France", "Paris"],
+      ["Japan", "Tokyo"],
+      ["Brazil", "Brasília"],
+      ["Canada", "Ottawa"],
+      ["Germany", "Berlin"],
+      ["Australia", "Canberra"],
+      ["India", "New Delhi"]
+    ]
+  },
+  {
+    "description": "Films and their directors",
+    "pairs": [
+      ["Inception", "Christopher Nolan"],
+      ["Pulp Fiction", "Quentin Tarantino"],
+      ["Schindler's List", "Steven Spielberg"],
+      ["The Grand Budapest Hotel", "Wes Anderson"],
+      ["Titanic", "James Cameron"],
+      ["Parasite", "Bong Joon-ho"],
+      ["The Shape of Water", "Guillermo del Toro"]
+    ]
+  },
+  {
+    "description": "Planets and their satellites",
+    "pairs": [
+      ["Earth", "Moon"],
+      ["Mars", "Phobos"],
+      ["Mars", "Deimos"],
+      ["Jupiter", "Europa"],
+      ["Jupiter", "Ganymede"],
+      ["Saturn", "Titan"],
+      ["Neptune", "Triton"]
+    ]
+  },
+  {
+    "description": "World religions and their founders",
+    "pairs": [
+      ["Christianity", "Jesus Christ"],
+      ["Islam", "Muhammad"],
+      ["Buddhism", "Siddhartha Gautama"],
+      ["Sikhism", "Guru Nanak"],
+      ["Jainism", "Mahavira"],
+      ["Bahá'í Faith", "Bahá'u'lláh"],
+      ["Zoroastrianism", "Zoroaster"]
+    ]
+  },
+  {
+    "description": "World cities and their rivers",
+    "pairs": [
+      ["London", "Thames"],
+      ["Paris", "Seine"],
+      ["Cairo", "Nile"],
+      ["Budapest", "Danube"],
+      ["New York City", "Hudson"],
+      ["Rome", "Tiber"],
+      ["Bangkok", "Chao Phraya"]
+    ]
+  },
+  {
+    "description": "Movies and main villains",
+    "pairs": [
+      ["The Dark Knight", "Joker"],
+      ["Avengers: Infinity War", "Thanos"],
+      ["Star Wars", "Darth Vader"],
+      ["The Lion King", "Scar"],
+      ["Skyfall", "Raoul Silva"],
+      ["Harry Potter and the Philosopher's Stone", "Lord Voldemort"],
+      ["The Silence of the Lambs", "Hannibal Lecter"]
+    ]
+  },
+  {
+    "description": "Countries and their football teams",
+    "pairs": [
+      ["Brazil", "Seleção"],
+      ["Germany", "Die Mannschaft"],
+      ["Argentina", "La Albiceleste"],
+      ["France", "Les Bleus"],
+      ["Italy", "Gli Azzurri"],
+      ["England", "Three Lions"],
+      ["Spain", "La Roja"]
+    ]
+  },
+  {
+    "description": "Movies and main actors",
+    "pairs": [
+      ["Gladiator", "Russell Crowe"],
+      ["The Matrix", "Keanu Reeves"],
+      ["Pirates of the Caribbean", "Johnny Depp"],
+      ["Mission: Impossible", "Tom Cruise"],
+      ["Titanic", "Leonardo DiCaprio"],
+      ["Black Panther", "Chadwick Boseman"],
+      ["Forrest Gump", "Tom Hanks"]
+    ]
+  },
+  {
+    "description": "Cities and their symbols",
+    "pairs": [
+      ["Paris", "Eiffel Tower"],
+      ["New York City", "Statue of Liberty"],
+      ["London", "Big Ben"],
+      ["Rome", "Colosseum"],
+      ["Beijing", "Forbidden City"],
+      ["Sydney", "Opera House"],
+      ["Rio de Janeiro", "Christ the Redeemer"]
+    ]
+  },
+  {
+    "description": "World leaders and their movements",
+    "pairs": [
+      ["Mahatma Gandhi", "Indian Independence Movement"],
+      ["Nelson Mandela", "Anti-Apartheid Movement"],
+      ["Martin Luther King Jr.", "Civil Rights Movement"],
+      ["Winston Churchill", "Allied Powers (WWII)"],
+      ["Vladimir Lenin", "Bolshevik Revolution"],
+      ["Franklin D. Roosevelt", "New Deal"],
+      ["Che Guevara", "Cuban Revolution"]
+    ]
+  },
+  {
+    "description": "Literary characters and books they are from",
+    "pairs": [
+      ["Sherlock Holmes", "The Adventures of Sherlock Holmes"],
+      ["Elizabeth Bennet", "Pride and Prejudice"],
+      ["Harry Potter", "Harry Potter and the Sorcerer's Stone"],
+      ["Jay Gatsby", "The Great Gatsby"],
+      ["Holden Caulfield", "The Catcher in the Rye"],
+      ["Hercule Poirot", "Murder on the Orient Express"],
+      ["Frodo Baggins", "The Lord of the Rings"]
+    ]
+  },
+  {
+    "description": "World religions and the countries where they are most represented",
+    "pairs": [
+      ["Christianity", "United States"],
+      ["Islam", "Indonesia"],
+      ["Hinduism", "India"],
+      ["Buddhism", "China"],
+      ["Judaism", "Israel"],
+      ["Sikhism", "India"],
+      ["Shinto", "Japan"]
+    ]
+  },
+  {
+    "description": "World landmarks and the countries where they are located",
+    "pairs": [
+      ["Eiffel Tower", "France"],
+      ["Statue of Liberty", "United States"],
+      ["Great Wall", "China"],
+      ["Christ the Redeemer", "Brazil"],
+      ["Big Ben", "United Kingdom"],
+      ["Colosseum", "Italy"],
+      ["Pyramids of Giza", "Egypt"]
+    ]
+  },
+  {
+    "description": "World buildings and the cities where they are located",
+    "pairs": [
+      ["Burj Khalifa", "Dubai"],
+      ["Empire State Building", "New York City"],
+      ["Shanghai Tower", "Shanghai"],
+      ["Petronas Towers", "Kuala Lumpur"],
+      ["Eiffel Tower", "Paris"],
+      ["Sydney Opera House", "Sydney"],
+      ["Willis Tower", "Chicago"]
+    ]
+  },
+  {
+    "description": "Animals and the families to which they belong",
+    "pairs": [
+      ["Lion", "Felidae"],
+      ["Wolf", "Canidae"],
+      ["Elephant", "Elephantidae"],
+      ["Kangaroo", "Macropodidae"],
+      ["Crocodile", "Crocodylidae"],
+      ["Horse", "Equidae"],
+      ["Dolphin", "Delphinidae"]
+    ]
+  },
+  {
+    "description": "World rivers and their sources",
+    "pairs": [
+      ["Nile", "Lake Victoria"],
+      ["Amazon", "Andes Mountains"],
+      ["Yangtze", "Tibetan Plateau"],
+      ["Danube", "Black Forest"],
+      ["Mississippi", "Lake Itasca"],
+      ["Ganges", "Himalayas"],
+      ["Volga", "Valdai Hills"]
+    ]
+  },
+  {
+    "description": "Oceans and islands",
+    "pairs": [
+      ["Pacific Ocean", "Hawaii"],
+      ["Atlantic Ocean", "Bermuda"],
+      ["Indian Ocean", "Maldives"],
+      ["Arctic Ocean", "Svalbard"],
+      ["Southern Ocean", "South Georgia Island"],
+      ["Caribbean Sea", "Jamaica"],
+      ["Mediterranean Sea", "Crete"]
+    ]
+  },
+  {
+    "description": "World cities and famous buildings",
+    "pairs": [
+      ["Paris", "Louvre Museum"],
+      ["New York City", "Empire State Building"],
+      ["London", "Tower Bridge"],
+      ["Rome", "St. Peter's Basilica"],
+      ["Dubai", "Burj Khalifa"],
+      ["Beijing", "Forbidden City"],
+      ["Sydney", "Sydney Opera House"]
+    ]
+  },
+  {
+    "description": "World religions and their holy books",
+    "pairs": [
+      ["Christianity", "Bible"],
+      ["Islam", "Qur'an"],
+      ["Judaism", "Tanakh"],
+      ["Hinduism", "Bhagavad Gita"],
+      ["Buddhism", "Tripitaka"],
+      ["Sikhism", "Guru Granth Sahib"],
+      ["Bahá'í Faith", "Kitáb-i-Aqdas"]
+    ]
+  },
+  {
+    "description": "Countries and their national anthems",
+    "pairs": [
+      ["United States", "The Star-Spangled Banner"],
+      ["United Kingdom", "God Save the Queen"],
+      ["France", "La Marseillaise"],
+      ["Germany", "Deutschlandlied"],
+      ["Japan", "Kimigayo"],
+      ["Canada", "O Canada"],
+      ["Brazil", "Hino Nacional Brasileiro"]
+    ]
+  },
+  {
+    "description": "Actors and characters from the series Breaking Bad",
+    "pairs": [
+      ["Bryan Cranston", "Walter White"],
+      ["Aaron Paul", "Jesse Pinkman"],
+      ["Anna Gunn", "Skyler White"],
+      ["Dean Norris", "Hank Schrader"],
+      ["Betsy Brandt", "Marie Schrader"],
+      ["Jonathan Banks", "Mike Ehrmantraut"],
+      ["Bob Odenkirk", "Saul Goodman"]
+    ]
+  },
+  {
+    "description": "Musicians and their hits",
+    "pairs": [
+      ["Michael Jackson", "Thriller"],
+      ["The Beatles", "Hey Jude"],
+      ["Beyoncé", "Single Ladies"],
+      ["Elvis Presley", "Jailhouse Rock"],
+      ["Madonna", "Like a Virgin"],
+      ["Queen", "Bohemian Rhapsody"],
+      ["Adele", "Rolling in the Deep"]
+    ]
+  },
+  {
+    "description": "Actors and characters from the series Friends",
+    "pairs": [
+      ["Jennifer Aniston", "Rachel Green"],
+      ["Courteney Cox", "Monica Geller"],
+      ["Lisa Kudrow", "Phoebe Buffay"],
+      ["Matt LeBlanc", "Joey Tribbiani"],
+      ["Matthew Perry", "Chandler Bing"],
+      ["David Schwimmer", "Ross Geller"],
+      ["Maggie Wheeler", "Janice"]
+    ]
+  },
+  {
+    "description": "Footballers and their clubs",
+    "pairs": [
+      ["Lionel Messi", "Paris Saint-Germain"],
+      ["Cristiano Ronaldo", "Al Nassr"],
+      ["Neymar Jr.", "Al Hilal"],
+      ["Kylian Mbappé", "Paris Saint-Germain"],
+      ["Robert Lewandowski", "Barcelona"],
+      ["Mohamed Salah", "Liverpool"],
+      ["Kevin De Bruyne", "Manchester City"]
+    ]
+  },
+  {
+    "description": "Film directors and their achievements",
+    "pairs": [
+      ["Steven Spielberg", "Jaws"],
+      ["Christopher Nolan", "Inception"],
+      ["Martin Scorsese", "Goodfellas"],
+      ["Quentin Tarantino", "Pulp Fiction"],
+      ["Alfred Hitchcock", "Psycho"],
+      ["James Cameron", "Titanic"],
+      ["Peter Jackson", "The Lord of the Rings"]
+    ]
+  },
+  {
+    "description": "Fashion designers",
+    "pairs": [
+      ["Coco Chanel", "Chanel"],
+      ["Giorgio Armani", "Armani"],
+      ["Ralph Lauren", "Polo Ralph Lauren"],
+      ["Donatella Versace", "Versace"],
+      ["Tom Ford", "Tom Ford"],
+      ["Karl Lagerfeld", "Chanel"],
+      ["Vivienne Westwood", "Westwood"]
+    ]
+  },
+  {
+    "description": "Writers and their books",
+    "pairs": [
+      ["William Shakespeare", "Hamlet"],
+      ["Jane Austen", "Pride and Prejudice"],
+      ["George Orwell", "1984"],
+      ["J.K. Rowling", "Harry Potter"],
+      ["Mark Twain", "Adventures of Huckleberry Finn"],
+      ["Ernest Hemingway", "The Old Man and the Sea"],
+      ["Leo Tolstoy", "War and Peace"]
+    ]
+  },
+  {
+    "description": "World cities and sights",
+    "pairs": [
+      ["Rome", "Colosseum"],
+      ["Paris", "Eiffel Tower"],
+      ["New York City", "Statue of Liberty"],
+      ["Istanbul", "Hagia Sophia"],
+      ["London", "Buckingham Palace"],
+      ["Cairo", "Pyramids of Giza"],
+      ["Moscow", "Red Square"]
+    ]
+  },
+  {
+    "description": "Artists and their works",
+    "pairs": [
+      ["Leonardo da Vinci", "Mona Lisa"],
+      ["Vincent van Gogh", "Starry Night"],
+      ["Pablo Picasso", "Guernica"],
+      ["Claude Monet", "Water Lilies"],
+      ["Michelangelo", "The Creation of Adam"],
+      ["Salvador Dalí", "The Persistence of Memory"],
+      ["Rembrandt", "The Night Watch"]
+    ]
+  },
+  {
+    "description": "Directions in music and their representatives",
+    "pairs": [
+      ["Baroque", "Johann Sebastian Bach"],
+      ["Classical", "Wolfgang Amadeus Mozart"],
+      ["Romantic", "Ludwig van Beethoven"],
+      ["Impressionism", "Claude Debussy"],
+      ["Jazz", "Louis Armstrong"],
+      ["Blues", "B.B. King"],
+      ["Rock", "Elvis Presley"]
+    ]
+  },
+  {
+    "description": "historical events and years when they happened",
+    "pairs": [
+      ["Fall of the Western Roman Empire", "476 AD"],
+      ["Signing of the Magna Carta", "1215"],
+      ["Columbus discovers America", "1492"],
+      ["French Revolution begins", "1789"],
+      ["American Declaration of Independence", "1776"],
+      ["Start of World War I", "1914"],
+      ["Russian Revolution", "1917"]
+    ]
+  },
+  {
+    "description": "historical events and years when they happened",
+    "pairs": [
+      ["End of World War II", "1945"],
+      ["Moon landing", "1969"],
+      ["Fall of the Berlin Wall", "1989"],
+      ["Great Depression begins", "1929"],
+      ["Battle of Hastings", "1066"],
+      ["Invention of the printing press", "1440"],
+      ["Treaty of Versailles signed", "1919"]
+    ]
+  },
+  {
+    "description": "historical events and years when they happened",
+    "pairs": [
+      ["American Civil War begins", "1861"],
+      ["Russian October Revolution", "1917"],
+      ["The Renaissance begins", "14th century"],
+      ["Discovery of penicillin", "1928"],
+      ["Cuban Missile Crisis", "1962"],
+      ["Nelson Mandela released from prison", "1990"],
+      ["September 11 attacks", "2001"]
+    ]
+  },
+  {
+    "description": "historical events and years when they happened",
+    "pairs": [
+      ["Industrial Revolution begins", "18th century"],
+      ["Declaration of the Rights of Man", "1789"],
+      ["Battle of Waterloo", "1815"],
+      ["Fall of Constantinople", "1453"],
+      ["Assassination of Archduke Franz Ferdinand", "1914"],
+      ["First man in space (Yuri Gagarin)", "1961"],
+      ["Partition of India", "1947"]
+    ]
+  },
+  {
+    "description": "historical events and years when they happened",
+    "pairs": [
+      ["Signing of the Treaty of Tordesillas", "1494"],
+      ["The Black Death peaks in Europe", "1347"],
+      ["Magellan's circumnavigation begins", "1519"],
+      ["Glorious Revolution in England", "1688"],
+      ["The Stock Market Crash", "1929"],
+      ["The Korean War begins", "1950"],
+      ["Fall of Saigon", "1975"]
+    ]
+  },
+  {
+    "description": "historical events and years when they happened",
+    "pairs": [
+      ["Battle of Stalingrad", "1942"],
+      ["Martin Luther's 95 Theses", "1517"],
+      ["Women's suffrage in the US", "1920"],
+      ["The French and Indian War", "1754"],
+      ["Berlin Airlift", "1948"],
+      ["Apollo 13 mission", "1970"],
+      ["Fall of the Soviet Union", "1991"]
+    ]
+  },
+  {
+    "description": "historical events and years when they happened",
+    "pairs": [
+      ["The Louisiana Purchase", "1803"],
+      ["Titanic sinks", "1912"],
+      ["Gutenberg Bible printed", "1455"],
+      ["First successful airplane flight", "1903"],
+      ["Warsaw Pact formed", "1955"],
+      ["Vietnam War ends", "1975"],
+      ["Berlin Wall constructed", "1961"]
+    ]
+  },
+  {
+    "description": "historical events and years when they happened",
+    "pairs": [
+      ["American Revolutionary War ends", "1783"],
+      ["Battle of Thermopylae", "480 BC"],
+      ["Treaty of Paris (1783)", "1783"],
+      ["The Enlightenment era", "17th-18th centuries"],
+      ["The Great Fire of London", "1666"],
+      ["The Boxer Rebellion", "1899"],
+      ["Fall of the Aztec Empire", "1521"]
+    ]
+  },
+  {
+    "description": "historical events and years when they happened",
+    "pairs": [
+      ["The Wright Brothers' first flight", "1903"],
+      ["The Opium Wars", "1839"],
+      ["Sinking of the Lusitania", "1915"],
+      ["Russian Civil War", "1917-1922"],
+      ["The Spanish Civil War", "1936"],
+      ["Chernobyl disaster", "1986"],
+      ["End of Apartheid in South Africa", "1994"]
+    ]
+  },
+  {
+    "description": "historical events and years when they happened",
+    "pairs": [
+      ["Fall of the Qing Dynasty", "1912"],
+      ["The Boston Tea Party", "1773"],
+      ["The Siege of Leningrad", "1941-1944"],
+      ["The Great Chicago Fire", "1871"],
+      ["The California Gold Rush", "1848"],
+      ["The Space Shuttle Challenger disaster", "1986"],
+      ["The Iranian Revolution", "1979"]
+    ]
+  },
+  {
+    "description": "cities and countries",
+    "pairs": [
+      ["Paris", "France"],
+      ["Tokyo", "Japan"],
+      ["Cairo", "Egypt"],
+      ["Sydney", "Australia"],
+      ["New York", "USA"],
+      ["Moscow", "Russia"],
+      ["Rio de Janeiro", "Brazil"]
+    ]
+  },
+  {
+    "description": "cities and countries",
+    "pairs": [
+      ["London", "United Kingdom"],
+      ["Beijing", "China"],
+      ["Toronto", "Canada"],
+      ["Berlin", "Germany"],
+      ["Mumbai", "India"],
+      ["Cape Town", "South Africa"],
+      ["Buenos Aires", "Argentina"]
+    ]
+  },
+  {
+    "description": "cities and countries",
+    "pairs": [
+      ["Rome", "Italy"],
+      ["Bangkok", "Thailand"],
+      ["Lagos", "Nigeria"],
+      ["Dubai", "United Arab Emirates"],
+      ["Istanbul", "Turkey"],
+      ["Seoul", "South Korea"],
+      ["Mexico City", "Mexico"]
+    ]
+  },
+  {
+    "description": "cities and countries",
+    "pairs": [
+      ["Amsterdam", "Netherlands"],
+      ["Athens", "Greece"],
+      ["Jakarta", "Indonesia"],
+      ["Lisbon", "Portugal"],
+      ["Vienna", "Austria"],
+      ["Helsinki", "Finland"],
+      ["Kuala Lumpur", "Malaysia"]
+    ]
+  },
+  {
+    "description": "cities and countries",
+    "pairs": [
+      ["Warsaw", "Poland"],
+      ["Stockholm", "Sweden"],
+      ["Hanoi", "Vietnam"],
+      ["Budapest", "Hungary"],
+      ["Dublin", "Ireland"],
+      ["Copenhagen", "Denmark"],
+      ["Santiago", "Chile"]
+    ]
+  },
+  {
+    "description": "cities and countries",
+    "pairs": [
+      ["Lima", "Peru"],
+      ["Manila", "Philippines"],
+      ["Riyadh", "Saudi Arabia"],
+      ["Brussels", "Belgium"],
+      ["Edinburgh", "Scotland"],
+      ["Nairobi", "Kenya"],
+      ["Oslo", "Norway"]
+    ]
+  },
+  {
+    "description": "cities and countries",
+    "pairs": [
+      ["Zurich", "Switzerland"],
+      ["Tehran", "Iran"],
+      ["Bogotá", "Colombia"],
+      ["Havana", "Cuba"],
+      ["Reykjavik", "Iceland"],
+      ["Doha", "Qatar"],
+      ["Caracas", "Venezuela"]
+    ]
+  },
+  {
+    "description": "cities and countries",
+    "pairs": [
+      ["Melbourne", "Australia"],
+      ["Kiev", "Ukraine"],
+      ["Casablanca", "Morocco"],
+      ["Brisbane", "Australia"],
+      ["Montevideo", "Uruguay"],
+      ["La Paz", "Bolivia"],
+      ["Valletta", "Malta"]
+    ]
+  },
+  {
+    "description": "cities and countries",
+    "pairs": [
+      ["Baghdad", "Iraq"],
+      ["Addis Ababa", "Ethiopia"],
+      ["Tunis", "Tunisia"],
+      ["Luxembourg City", "Luxembourg"],
+      ["Vilnius", "Lithuania"],
+      ["Ljubljana", "Slovenia"],
+      ["Zagreb", "Croatia"]
+    ]
+  },
+  {
+    "description": "cities and countries",
+    "pairs": [
+      ["Helsinki", "Finland"],
+      ["Tallinn", "Estonia"],
+      ["Sarajevo", "Bosnia and Herzegovina"],
+      ["Kampala", "Uganda"],
+      ["Amman", "Jordan"],
+      ["Porto", "Portugal"],
+      ["Chisinau", "Moldova"]
+    ]
+  },
+  {
+    "description": "plants and the families they belong to",
+    "pairs": [
+      ["Rose", "Rosaceae"],
+      ["Sunflower", "Asteraceae"],
+      ["Tulip", "Liliaceae"],
+      ["Oak", "Fagaceae"],
+      ["Pine", "Pinaceae"],
+      ["Maple", "Sapindaceae"],
+      ["Daisy", "Asteraceae"]
+    ]
+  },
+  {
+    "description": "plants and the families they belong to",
+    "pairs": [
+      ["Lavender", "Lamiaceae"],
+      ["Cactus", "Cactaceae"],
+      ["Orchid", "Orchidaceae"],
+      ["Banana", "Musaceae"],
+      ["Wheat", "Poaceae"],
+      ["Tomato", "Solanaceae"],
+      ["Pea", "Fabaceae"]
+    ]
+  },
+  {
+    "description": "plants and the families they belong to",
+    "pairs": [
+      ["Coffee", "Rubiaceae"],
+      ["Mint", "Lamiaceae"],
+      ["Olive", "Oleaceae"],
+      ["Bamboo", "Poaceae"],
+      ["Lily", "Liliaceae"],
+      ["Cherry", "Rosaceae"],
+      ["Holly", "Aquifoliaceae"]
+    ]
+  },
+  {
+    "description": "plants and the families they belong to",
+    "pairs": [
+      ["Eucalyptus", "Myrtaceae"],
+      ["Clover", "Fabaceae"],
+      ["Willow", "Salicaceae"],
+      ["Chestnut", "Fagaceae"],
+      ["Pumpkin", "Cucurbitaceae"],
+      ["Rhubarb", "Polygonaceae"],
+      ["Geranium", "Geraniaceae"]
+    ]
+  },
+  {
+    "description": "plants and the families they belong to",
+    "pairs": [
+      ["Juniper", "Cupressaceae"],
+      ["Peony", "Paeoniaceae"],
+      ["Fuchsia", "Onagraceae"],
+      ["Daffodil", "Amaryllidaceae"],
+      ["Hazel", "Betulaceae"],
+      ["Fig", "Moraceae"],
+      ["Ivy", "Araliaceae"]
+    ]
+  },
+  {
+    "description": "plants and the families they belong to",
+    "pairs": [
+      ["Magnolia", "Magnoliaceae"],
+      ["Corn", "Poaceae"],
+      ["Cranberry", "Ericaceae"],
+      ["Blueberry", "Ericaceae"],
+      ["Aloe Vera", "Asphodelaceae"],
+      ["Yew", "Taxaceae"],
+      ["Carrot", "Apiaceae"]
+    ]
+  },
+  {
+    "description": "plants and the families they belong to",
+    "pairs": [
+      ["Spinach", "Amaranthaceae"],
+      ["Sweet Potato", "Convolvulaceae"],
+      ["Chrysanthemum", "Asteraceae"],
+      ["Hibiscus", "Malvaceae"],
+      ["Cocoa", "Malvaceae"],
+      ["Basil", "Lamiaceae"],
+      ["Sage", "Lamiaceae"]
+    ]
+  },
+  {
+    "description": "plants and the families they belong to",
+    "pairs": [
+      ["Pepper", "Piperaceae"],
+      ["Walnut", "Juglandaceae"],
+      ["Cotton", "Malvaceae"],
+      ["Laurel", "Lauraceae"],
+      ["Palm", "Arecaceae"],
+      ["Heather", "Ericaceae"],
+      ["Juniperberry", "Cupressaceae"]
+    ]
+  },
+  {
+    "description": "plants and the families they belong to",
+    "pairs": [
+      ["Dogwood", "Cornaceae"],
+      ["Elderberry", "Adoxaceae"],
+      ["Mulberry", "Moraceae"],
+      ["Buckwheat", "Polygonaceae"],
+      ["Fennel", "Apiaceae"],
+      ["Hawthorn", "Rosaceae"],
+      ["Moss", "Bryophyta"]
+    ]
+  },
+  {
+    "description": "plants and the families they belong to",
+    "pairs": [
+      ["Ginger", "Zingiberaceae"],
+      ["Fern", "Polypodiaceae"],
+      ["Juniper", "Cupressaceae"],
+      ["Sassafras", "Lauraceae"],
+      ["Lobelia", "Campanulaceae"],
+      ["Magnolia", "Magnoliaceae"],
+      ["Mimosa", "Fabaceae"]
+    ]
+  },
+  {
+    "description": "animals and the families they belong to",
+    "pairs": [
+      ["Lion", "Felidae"],
+      ["Gray Wolf", "Canidae"],
+      ["African Elephant", "Elephantidae"],
+      ["Bald Eagle", "Accipitridae"],
+      ["Great White Shark", "Lamnidae"],
+      ["Common Octopus", "Octopodidae"],
+      ["King Cobra", "Elapidae"]
+    ]
+  },
+  {
+    "description": "animals and the families they belong to",
+    "pairs": [
+      ["Giant Panda", "Ursidae"],
+      ["Red Fox", "Canidae"],
+      ["Blue Whale", "Balaenopteridae"],
+      ["Monarch Butterfly", "Nymphalidae"],
+      ["Emperor Penguin", "Spheniscidae"],
+      ["Green Anole", "Dactyloidae"],
+      ["Komodo Dragon", "Varanidae"]
+    ]
+  },
+  {
+    "description": "animals and the families they belong to",
+    "pairs": [
+      ["Common Frog", "Ranidae"],
+      ["House Sparrow", "Passeridae"],
+      ["Atlantic Salmon", "Salmonidae"],
+      ["Tasmanian Devil", "Dasyuridae"],
+      ["Cheetah", "Felidae"],
+      ["Harpy Eagle", "Accipitridae"],
+      ["Cuttlefish", "Sepiidae"]
+    ]
+  },
+  {
+    "description": "animals and the families they belong to",
+    "pairs": [
+      ["African Wild Dog", "Canidae"],
+      ["Snow Leopard", "Felidae"],
+      ["Bison", "Bovidae"],
+      ["Green Sea Turtle", "Cheloniidae"],
+      ["Great Horned Owl", "Strigidae"],
+      ["Atlantic Puffin", "Alcidae"],
+      ["Red Kangaroo", "Macropodidae"]
+    ]
+  },
+  {
+    "description": "animals and the families they belong to",
+    "pairs": [
+      ["Wolverine", "Mustelidae"],
+      ["Polar Bear", "Ursidae"],
+      ["Atlantic Bottlenose Dolphin", "Delphinidae"],
+      ["Kingfisher", "Alcedinidae"],
+      ["Boa Constrictor", "Boidae"],
+      ["Mandrill", "Cercopithecidae"],
+      ["Common Chimpanzee", "Hominidae"]
+    ]
+  },
+  {
+    "description": "animals and the families they belong to",
+    "pairs": [
+      ["Red Deer", "Cervidae"],
+      ["Orca", "Delphinidae"],
+      ["African Grey Parrot", "Psittacidae"],
+      ["European Hedgehog", "Erinaceidae"],
+      ["Leatherback Sea Turtle", "Dermochelyidae"],
+      ["Gila Monster", "Helodermatidae"],
+      ["Mountain Lion", "Felidae"]
+    ]
+  },
+  {
+    "description": "animals and the families they belong to",
+    "pairs": [
+      ["Mallard Duck", "Anatidae"],
+      ["Tasmanian Tiger (Thylacine)", "Thylacinidae"],
+      ["Siberian Tiger", "Felidae"],
+      ["Emu", "Dromaiidae"],
+      ["American Alligator", "Alligatoridae"],
+      ["Peregrine Falcon", "Falconidae"],
+      ["Giant Anteater", "Myrmecophagidae"]
+    ]
+  },
+  {
+    "description": "animals and the families they belong to",
+    "pairs": [
+      ["Brown Bear", "Ursidae"],
+      ["Atlantic Cod", "Gadidae"],
+      ["Zebra", "Equidae"],
+      ["House Mouse", "Muridae"],
+      ["Blue-ringed Octopus", "Octopodidae"],
+      ["Sailfish", "Istiophoridae"],
+      ["Great Barracuda", "Sphyraenidae"]
+    ]
+  },
+  {
+    "description": "animals and the families they belong to",
+    "pairs": [
+      ["Mountain Gorilla", "Hominidae"],
+      ["Eastern Grey Kangaroo", "Macropodidae"],
+      ["Snowy Owl", "Strigidae"],
+      ["Common Carp", "Cyprinidae"],
+      ["Atlantic Horseshoe Crab", "Limulidae"],
+      ["Green Iguana", "Iguanidae"],
+      ["King Penguin", "Spheniscidae"]
+    ]
+  },
+  {
+    "description": "animals and the families they belong to",
+    "pairs": [
+      ["Emperor Moth", "Saturniidae"],
+      ["Great White Pelican", "Pelecanidae"],
+      ["Tasmanian Pademelon", "Macropodidae"],
+      ["Harlequin Frog", "Dendrobatidae"],
+      ["American Bison", "Bovidae"],
+      ["Asian Elephant", "Elephantidae"],
+      ["Crested Penguin", "Spheniscidae"]
+    ]
+  },
+  {
+    "description": "characters and actors from the movie 'the shawshank redemption'",
+    "pairs": [
+      ["Andy Dufresne", "Tim Robbins"],
+      ["Ellis 'Red' Redding", "Morgan Freeman"],
+      ["Warden Norton", "Bob Gunton"],
+      ["Captain Hadley", "Clancy Brown"],
+      ["Tommy Williams", "Gil Bellows"],
+      ["Heywood", "William Sadler"],
+      ["Brooks Hatlen", "James Whitmore"]
+    ]
+  },
+  {
+    "description": "characters and actors from the movie 'pulp fiction'",
+    "pairs": [
+      ["Vincent Vega", "John Travolta"],
+      ["Jules Winnfield", "Samuel L. Jackson"],
+      ["Mia Wallace", "Uma Thurman"],
+      ["Butch Coolidge", "Bruce Willis"],
+      ["Marsellus Wallace", "Ving Rhames"],
+      ["Pumpkin", "Tim Roth"],
+      ["Honey Bunny", "Amanda Plummer"]
+    ]
+  },
+  {
+    "description": "characters and actors from the movie 'the dark knight'",
+    "pairs": [
+      ["Bruce Wayne / Batman", "Christian Bale"],
+      ["Joker", "Heath Ledger"],
+      ["Harvey Dent / Two-Face", "Aaron Eckhart"],
+      ["Rachel Dawes", "Maggie Gyllenhaal"],
+      ["Alfred Pennyworth", "Michael Caine"],
+      ["Commissioner Gordon", "Gary Oldman"],
+      ["Lucius Fox", "Morgan Freeman"]
+    ]
+  },
+  {
+    "description": "characters and actors from the movie 'Forrest Gump'",
+    "pairs": [
+      ["Forrest Gump", "Tom Hanks"],
+      ["Jenny Curran", "Robin Wright"],
+      ["Lieutenant Dan Taylor", "Gary Sinise"],
+      ["Mrs. Gump", "Sally Field"],
+      ["Bubba", "Mykelti Williamson"],
+      ["Narrator", "Tom Hanks"],
+      ["Young Forrest", "Michael Conner Humphreys"]
+    ]
+  },
+  {
+    "description": "characters and actors from the movie 'the matrix'",
+    "pairs": [
+      ["Neo", "Keanu Reeves"],
+      ["Morpheus", "Laurence Fishburne"],
+      ["Trinity", "Carrie-Anne Moss"],
+      ["Agent Smith", "Hugo Weaving"],
+      ["Oracle", "Gloria Foster"],
+      ["Cypher", "Joe Pantoliano"],
+      ["Tank", "Marcus Chong"]
+    ]
+  },
+  {
+    "description": "characters and actors from the movie 'inception'",
+    "pairs": [
+      ["Dom Cobb", "Leonardo DiCaprio"],
+      ["Arthur", "Joseph Gordon-Levitt"],
+      ["Ariadne", "Elliot Page"],
+      ["Robert Fischer", "Cillian Murphy"],
+      ["Eames", "Tom Hardy"],
+      ["Mal Cobb", "Marion Cotillard"],
+      ["Saito", "Ken Watanabe"]
+    ]
+  },
+  {
+    "description": "characters and actors from the movie 'the godfather'",
+    "pairs": [
+      ["Vito Corleone", "Marlon Brando"],
+      ["Michael Corleone", "Al Pacino"],
+      ["Sonny Corleone", "James Caan"],
+      ["Tom Hagen", "Robert Duvall"],
+      ["Fredo Corleone", "John Cazale"],
+      ["Kay Adams", "Diane Keaton"],
+      ["Clemenza", "Richard S. Castellano"]
+    ]
+  },
+  {
+    "description": "characters and actors from the movie 'fight club'",
+    "pairs": [
+      ["The Narrator", "Edward Norton"],
+      ["Tyler Durden", "Brad Pitt"],
+      ["Marla Singer", "Helena Bonham Carter"],
+      ["Robert 'Bob' Paulson", "Meat Loaf"],
+      ["Angel Face", "Jared Leto"],
+      ["Richard Chesler", "Zach Grenier"],
+      ["Narrator's Boss", "David Andrews"]
+    ]
+  },
+  {
+    "description": "characters and actors from the film 'the silence of the lambs'",
+    "pairs": [
+      ["Clarice Starling", "Jodie Foster"],
+      ["Dr. Hannibal Lecter", "Anthony Hopkins"],
+      ["Jame Gumb / Buffalo Bill", "Ted Levine"],
+      ["Jack Crawford", "Scott Glenn"],
+      ["Dr. Frederick Chilton", "Anthony Heald"],
+      ["Ardelia Mapp", "Kasi Lemmons"],
+      ["Paul Krendler", "Jeffrey DeMunn"]
+    ]
+  },
+  {
+    "description": "characters and actors from the movie 'the avengers'",
+    "pairs": [
+      ["Tony Stark / Iron Man", "Robert Downey Jr."],
+      ["Steve Rogers / Captain America", "Chris Evans"],
+      ["Thor", "Chris Hemsworth"],
+      ["Bruce Banner / Hulk", "Mark Ruffalo"],
+      ["Natasha Romanoff / Black Widow", "Scarlett Johansson"],
+      ["Clint Barton / Hawkeye", "Jeremy Renner"],
+      ["Nick Fury", "Samuel L. Jackson"]
+    ]
+  }
+]

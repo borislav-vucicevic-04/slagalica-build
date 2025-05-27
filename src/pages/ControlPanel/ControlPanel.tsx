@@ -22,6 +22,7 @@ export default function ControlPanel() {
     switch(gameName) {
       case 'slagalica': return played.slagalica;
       case 'moj-broj': return played.mojBroj;
+      case 'spajalica': return played.spajalica;
       default: break;
     }
     
@@ -35,6 +36,7 @@ export default function ControlPanel() {
     switch(gameName) {
       case 'slagalica': game = "slagalica"; setPoints({...points, slagalica: 0}); break;
       case 'mojBroj': game = "moj-broj"; setPoints({...points, mojBroj: 0}); break;
+      case 'spajalica': game = 'spajalica'; setPoints({...points, spajalica: 0}); break;
       default: break;
     }
     if(game) navigate(`/slagalica-build/${game}`);
@@ -73,8 +75,9 @@ export default function ControlPanel() {
     document.title = 'Slagalica Kviz - Kontrolna tabla';
 
     if(blocker.state === 'blocked') {
-      const gameName = blocker.location.pathname.split('/').pop(); // pull out the last part of the pathname which is name of the game
-      if(gameName === 'slagalica-build') {
+      const path = blocker.location.pathname;
+      console.log(path)
+      if(path === '/slagalica-build' || path === '/slagalica-build/') {
         Dialogs.confirm({
           title: blockerDialogText.title,
           message: blockerDialogText.message,
