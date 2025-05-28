@@ -5,6 +5,7 @@ import ControlPanel from "./pages/ControlPanel/ControlPanel";
 import Slagalica from "./pages/Slagalica/Slagalica";
 import MojBroj from "./pages/MojBroj/MojBroj";
 import Spajalica from "./pages/Spajalica/Spajalica";
+import Parovi from "./pages/Parovi/Parovi";
 
 const router = createBrowserRouter([
   {
@@ -15,7 +16,8 @@ const router = createBrowserRouter([
       { path: '/slagalica-build/control-panel', element: <ControlPanel /> },
       { path: '/slagalica-build/slagalica', element: <Slagalica /> },
       { path: '/slagalica-build/moj-broj', element: <MojBroj />},
-      { path: '/slagalica-build/spajalica', element: <Spajalica />}
+      { path: '/slagalica-build/spajalica', element: <Spajalica />},
+      { path: '/slagalica-build/parovi', element: <Parovi /> }
     ]
   }
 ]);

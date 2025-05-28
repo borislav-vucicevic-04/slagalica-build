@@ -1,0 +1,4 @@
+{
+  "dialogTitle": "Kraj igre",
+  "dialogMessage": "<ul><li>Osvojeni poeni: ${earnedPoints} </li> <li>Bonus: ${bonus} </li> </ul>"
+}

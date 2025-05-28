@@ -14,7 +14,6 @@ const generateSpajalica = async (locale: 'sr' | 'en'): Promise<ISpajalica> => {
   else if(locale === 'en') database = (await import('./../assets/database/en/spajalica/spajalica.json')).default as Game[];
 
   const game = database[getRandomNumber(database.length)];
-  console.log(database.map(item => item.description));
   
   const description = game.description;
   const left: string[] = [];

@@ -23,6 +23,7 @@ export default function ControlPanel() {
       case 'slagalica': return played.slagalica;
       case 'moj-broj': return played.mojBroj;
       case 'spajalica': return played.spajalica;
+      case 'parovi': return played.parovi;
       default: break;
     }
     
@@ -37,6 +38,7 @@ export default function ControlPanel() {
       case 'slagalica': game = "slagalica"; setPoints({...points, slagalica: 0}); break;
       case 'mojBroj': game = "moj-broj"; setPoints({...points, mojBroj: 0}); break;
       case 'spajalica': game = 'spajalica'; setPoints({...points, spajalica: 0}); break;
+      case 'parovi': game = 'parovi'; setPoints({...points, parovi: 0}); break;
       default: break;
     }
     if(game) navigate(`/slagalica-build/${game}`);

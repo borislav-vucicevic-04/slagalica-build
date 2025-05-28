@@ -106,7 +106,7 @@ export default function Slagalica() {
         }
       });
     }
-    document.title = "Slagalica Kviz - Slagalcia"
+    document.title = "Slagalica Kviz - Slagalica"
     intervalId = setInterval(() => {
       setTimeLeft((prev) => {
         if (prev === 0) {
