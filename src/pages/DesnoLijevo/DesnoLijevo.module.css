@@ -53,11 +53,11 @@
   font-size: var(--fontSize);
   border-radius: var(--borderRadius);
   display: -webkit-box;
-  line-clamp: 2;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical; 
   overflow: hidden;
   text-overflow: ellipsis;
+  animation: flip 500ms;
 }
 .tile:disabled:hover {
   filter: none;
@@ -98,6 +98,13 @@
     opacity: 1;
   }
 }
+@keyframes flip {
+  from {
+    transform: rotateX(180deg);
+  } to {
+    transform: rotate(0deg);
+  }
+}
 @media screen and (max-height: 1152px) {
   .gridWrapper {
     height: 93%;
@@ -116,33 +123,6 @@
   --container-padding: 0.75rem;
   --gridWrapper-gap: 1rem;
   --fontSize: 1rem;
-  }
-}
-@media screen and (max-width: 430px) {
-  .container {
-  /* variables */
-  --container-padding: 0.5rem;
-  --gridWrapper-gap: 0.5rem;
-  --fontSize: 1rem;
-  --borderRadius: 0.5rem;
-  }
-}
-@media screen and (max-width: 380px) {
-  .container {
-  /* variables */
-  --container-padding: 0.5rem;
-  --gridWrapper-gap: 0.25rem;
-  --fontSize: 1rem;
-  --borderRadius: 0.5rem;
-  }
-}
-@media screen and (max-width: 350px) {
-  .container {
-  /* variables */
-  --container-padding: 0.25rem;
-  --gridWrapper-gap: 0.25rem;
-  --fontSize: 0.75rem;
-  --borderRadius: 0.5rem;
   }
 }
 @media screen and (max-height: 700px) {
@@ -165,7 +145,7 @@
   .container {
   /* variables */
   --container-padding: 0.5rem;
-  --gridWrapper-gap: 0.75rem;
+  --gridWrapper-gap: 1rem;
   --fontSize: 1.15rem;
   --borderRadius: 0.5rem;
   --timerCounter-fontSize: 1.25rem;
@@ -192,7 +172,7 @@
   .container {
   /* variables */
   --container-padding: 0.5rem;
-  --gridWrapper-gap: 0.5rem;
+  --gridWrapper-gap: 0.75rem;
   --fontSize: 1rem;
   --borderRadius: 0.5rem;
   --timerCounter-fontSize: 1.15rem;
@@ -209,7 +189,7 @@
   .container {
   /* variables */
   --container-padding: 0.5rem;
-  --gridWrapper-gap: 0.25rem;
+  --gridWrapper-gap: 0.5rem;
   --fontSize: 1rem;
   --borderRadius: 0.5rem;
   --timerCounter-fontSize: 1rem;

@@ -24,6 +24,7 @@ export default function ControlPanel() {
       case 'moj-broj': return played.mojBroj;
       case 'spajalica': return played.spajalica;
       case 'parovi': return played.parovi;
+      case 'desnoLijevo': return played.desnoLijevo;
       default: break;
     }
     
@@ -39,6 +40,7 @@ export default function ControlPanel() {
       case 'mojBroj': game = "moj-broj"; setPoints({...points, mojBroj: 0}); break;
       case 'spajalica': game = 'spajalica'; setPoints({...points, spajalica: 0}); break;
       case 'parovi': game = 'parovi'; setPoints({...points, parovi: 0}); break;
+      case 'desnoLijevo': game = 'desnoLijevo'; setPoints({...points, desnoLijevo: 0}); break;
       default: break;
     }
     if(game) navigate(`/slagalica-build/${game}`);
@@ -102,7 +104,7 @@ export default function ControlPanel() {
       <button disabled={played.mojBroj} className={StyleSheet.controlBtn} onClick={() => handleGameChoice('mojBroj')}>{text.mojBrojLink}</button>
       <button disabled={played.spajalica} className={StyleSheet.controlBtn} onClick={() => handleGameChoice('spajalica')}>{text.spajalicaLink}</button>
       <button disabled={played.parovi} className={StyleSheet.controlBtn} onClick={() => handleGameChoice('parovi')}>{text.paroviLink}</button>
-      <button disabled={played.premetaljka} className={StyleSheet.controlBtn} onClick={() => handleGameChoice('premetaljka')}>{text.desnoLijevoLink}</button>
+      <button disabled={played.desnoLijevo} className={StyleSheet.controlBtn} onClick={() => handleGameChoice('desnoLijevo')}>{text.desnoLijevoLink}</button>
       <button disabled={played.sef} className={StyleSheet.controlBtn} onClick={() => handleGameChoice('sef')}>{text.sefLink}</button>
       <button disabled={played.zid} className={StyleSheet.controlBtn} onClick={() => handleGameChoice('zid')}>{text.zidLink}</button>
       <button disabled={played.putOkoSvijeta} className={StyleSheet.controlBtn} onClick={() => handleGameChoice('putOkoSvijeta')}>{text.putOkoSvijetaLink}</button>

@@ -1,0 +1,4 @@
+{
+  "dialogTitle": "Game over",
+  "dialogMessage": "<ul><li>Earned points: ${earnedPoints}</li><li>Bonus: ${bonus}</li>"
+}

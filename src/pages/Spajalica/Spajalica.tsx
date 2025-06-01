@@ -55,7 +55,6 @@ export default function Spajalica() {
     clearInterval(intervalID);
     const correct = leftTiles.filter(item => item.className === StyleSheet.correct).length;
     const pts = correct * 4;
-    console.log(`timeLeft: ${timeLeft}`);
     
     const title = text.dialogTitle;
     const pairsLeft = game.spajalica.pairs.filter(item => !correctPairs.has(item));
@@ -95,7 +94,7 @@ export default function Spajalica() {
     setRightTiles(newRightTiles);
     setCurrentItem(prev => {
       const next = prev + 1;
-      console.log(next)
+      
       if(next > 6) {
         gameOver();
       }
